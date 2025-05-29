@@ -1,5 +1,6 @@
 
 /* exercise02_20.c - Converting from Seconds to Hours, Minutes and Seconds.
+   
    Write a program that asks the user to enter the total time elapsed, in seconds, since an event occurred
    and converts the time to hours, minutes, and seconds. The time should be displayed
    as hours:minutes:seconds. [Hint: Use the modulus operator]. */
