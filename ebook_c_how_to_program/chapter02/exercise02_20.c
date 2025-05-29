@@ -25,5 +25,6 @@ int main(void) {
 
     /* show time in HH:MM:SS formate */
     printf("%02d:%02d:%02d\n", hours, minutes, seconds);
+    
     return EXIT_SUCCESS;
 }
