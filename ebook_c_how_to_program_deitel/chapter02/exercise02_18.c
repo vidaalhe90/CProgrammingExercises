@@ -30,7 +30,7 @@ int main(void) {
         puts("We have a new highest rainfall record!");
     }
     
-    /* Display results */
+    /* display results */
     printf("Highets rainfall ever is %d\n", highest_rainfall);
 
     return EXIT_SUCCESS;
