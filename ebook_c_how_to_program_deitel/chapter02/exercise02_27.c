@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* function main begins program execution */
 int main(void) {
 
     /* enter a 4-digit number */
