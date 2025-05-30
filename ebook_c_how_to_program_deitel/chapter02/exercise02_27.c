@@ -10,27 +10,27 @@
 
 int main(void) {
 
-    /* enter a 4-digit number*/
+    /* enter a 4-digit number */
     int number;
     printf("%s", "Enter a 4-digit number: ");
     scanf("%d", &number);
     
-    /* find units digit and update number. */
+    /* find units digit and update number */
     int units = number % 10;
     number = number / 10;
 
-    /* find tens digit and update number. */
+    /* find tens digit and update number */
     int tens = number % 10;
     number = number / 10;
 
-    /* find hundreds digit and update number. */
+    /* find hundreds digit and update number */
     int hundreds = number % 10;
     number = number / 10;
 
-    /* find thousands digit (no necessary update number)*/
+    /* find thousands digit (number update is not necessary) */
     int thousands = number % 10;
 
-    /* sums all digits and display the result. */
+    /* sums all digits and display the result */
     int total = units + tens + hundreds + thousands;
     printf("%d + %d + %d + %d = %d\n", thousands, hundreds, tens, units, total);
 
