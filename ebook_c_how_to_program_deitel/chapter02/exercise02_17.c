@@ -12,8 +12,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+/* function main begins program execution */
 int main(void) {
+
     int u, a, t;
     printf("%s", "Enter initial velocity (m/s), acceleration (m/s^2), and distance traversed (s): ");
     scanf("%d %d %d", &u, &a, &t);
