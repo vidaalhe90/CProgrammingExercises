@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* function main begins program execution */
 int main(void) {
 
     /* enter number of seconds to be converted */
@@ -23,7 +24,7 @@ int main(void) {
     int hours = minutes / 60;
     minutes = minutes % 60;
 
-    /* show time in HH:MM:SS formate */
+    /* show time in HH:MM:SS format */
     printf("%02d:%02d:%02d\n", hours, minutes, seconds);
     
     return EXIT_SUCCESS;
