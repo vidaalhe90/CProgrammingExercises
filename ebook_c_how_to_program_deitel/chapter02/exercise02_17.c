@@ -15,13 +15,16 @@
 /* function main begins program execution */
 int main(void) {
 
+    /* enter velocity, acceleration and time */
     int u, a, t;
     printf("%s", "Enter initial velocity (m/s), acceleration (m/s^2), and distance traversed (s): ");
     scanf("%d %d %d", &u, &a, &t);
 
+    /* computes and shows the final velocity */
     int v = u + a * t;
     printf("Final velocity v = %d m/s\n", v);
 
+    /* computes and show total distance traversed */
     int s = u * t + a * t * t / 2;
     printf("Distance traversed s = %d m\n", s);
 
