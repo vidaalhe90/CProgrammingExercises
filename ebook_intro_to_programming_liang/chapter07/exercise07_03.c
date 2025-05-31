@@ -19,20 +19,14 @@ int main(void) {
     printf("%s", "Enter integers between 1 and 50 (0 to quit): ");
     for (;;) {
         scanf("%d", &input);
-        if (input == 0) {
-            break;
-        }
-        if (1 <= input && input <= 50) {
-            ocurrences[input]++;
-        }
+        if (input == 0) { break; }
+        if (1 <= input && input <= 50) { ocurrences[input]++; }
     }
 
     for (int i = 1; i <= N; i++) {
         char* time = "time";
         if (ocurrences[i] > 0) {
-            if (ocurrences[i] > 1) {
-                time = "times";
-            }
+            if (ocurrences[i] > 1) { time = "times"; }
             printf("%d occurs %d %s\n", i, ocurrences[i], time);
         }
     }
