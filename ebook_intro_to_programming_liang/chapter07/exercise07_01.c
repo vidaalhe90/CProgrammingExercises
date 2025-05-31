@@ -27,7 +27,7 @@ int main(void) {
     scanf("%d", &n);
 
     /* create an array of integers and enter student scores */
-    int *scores = (int *)calloc(n, sizeof (int));
+    int *scores = (int *)malloc(n * sizeof (int));
     printf("Enter %d scores: ", n);
     for (size_t i = 0; i < n; i++) {
         scanf("%d", &scores[i]);
@@ -42,7 +42,7 @@ int main(void) {
     }
 
     /* create an array of chars to store grade corresponding to each score */
-    char *grades = (char *)calloc(n, sizeof (char));
+    char *grades = (char *)malloc(n * sizeof (char));
     for (size_t i = 0; i < n; i++) {
         grades[i] = 'F';
         if      (scores[i] >= best_score - 5)  { grades[i] = 'A'; }
