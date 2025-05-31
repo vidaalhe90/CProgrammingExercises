@@ -20,6 +20,7 @@ int main(void) {
 
     double max_value = max(values, length);
     printf("Largest value in array: %.2lf\n", max_value);
+
     return EXIT_SUCCESS;
 }
 
