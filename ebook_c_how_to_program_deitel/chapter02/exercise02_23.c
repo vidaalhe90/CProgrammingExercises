@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* function main begins program execution */
 int main(void) {
 
     /* enter numbers */
