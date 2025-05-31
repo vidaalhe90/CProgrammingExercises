@@ -5,7 +5,6 @@
    number of even numbers and odd numbers. Assume that the input ends
    with 0. */
 
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -27,6 +26,6 @@ int main(void) {
 
     printf("The number of even numbers: %d\n", ocurrences[0]);
     printf("The number of odd numbers: %d\n", ocurrences[1]);
-    
+
     return EXIT_SUCCESS;
 }

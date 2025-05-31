@@ -4,7 +4,6 @@
    Write a program that reads the integers between 1 and 50
    and count the occurrences of each. Assume the input ends with 0. */
 
-
 #include <stdio.h>
 #include <stdlib.h>
 
