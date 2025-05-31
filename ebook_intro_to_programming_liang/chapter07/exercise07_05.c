@@ -12,7 +12,7 @@
 /* function main begins program execution */
 int main(void) {
 
-    int ocurrences[] = {0, 0};
+    int occurrences[] = {0, 0};
     int input;
 
     printf("%s", "Enter numbers: ");
@@ -21,11 +21,11 @@ int main(void) {
         if (input == 0) {
             break;
         }
-        ocurrences[input % 2]++;
+        occurrences[input % 2]++;
     }
 
-    printf("The number of even numbers: %d\n", ocurrences[0]);
-    printf("The number of odd numbers: %d\n", ocurrences[1]);
+    printf("The number of even numbers: %d\n", occurrences[0]);
+    printf("The number of odd numbers: %d\n", occurrences[1]);
 
     return EXIT_SUCCESS;
 }

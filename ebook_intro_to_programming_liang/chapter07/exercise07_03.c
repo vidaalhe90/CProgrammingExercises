@@ -12,7 +12,7 @@
 /* function main begins program execution */
 int main(void) {
 
-    int ocurrences[N + 1] = {0};
+    int occurrences[N + 1] = {0};
     int input;
     
     printf("%s", "Enter integers between 1 and 50 (0 to quit): ");
@@ -22,17 +22,17 @@ int main(void) {
             break;
         }
         if (1 <= input && input <= 50) {
-            ocurrences[input]++;
+            occurrences[input]++;
         }
     }
 
     for (int i = 1; i <= N; i++) {
         char* time = "time";
-        if (ocurrences[i] > 0) {
-            if (ocurrences[i] > 1) {
+        if (occurrences[i] > 0) {
+            if (occurrences[i] > 1) {
                 time = "times";
             }
-            printf("%d occurs %d %s\n", i, ocurrences[i], time);
+            printf("%d occurs %d %s\n", i, occurrences[i], time);
         }
     }
 
