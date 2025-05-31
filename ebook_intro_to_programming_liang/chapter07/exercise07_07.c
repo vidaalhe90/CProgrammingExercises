@@ -11,6 +11,7 @@
 #define N 200
 #define DIGITS 10
 
+/* function main begins program execution */
 int main(void) {
 
     int occurrences[DIGITS] = {0};
