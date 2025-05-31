@@ -10,6 +10,7 @@
 
 #define N 10
 
+/* function prototypes */
 double std_mean(double x[], size_t n);
 double std_dev(double x[], size_t n);
 
