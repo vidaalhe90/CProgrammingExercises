@@ -52,7 +52,7 @@ int main(void) {
     }
 
     /* show score and grade for each student */
-    for (size_t i = 0; i < n; i++){
+    for (size_t i = 0; i < n; i++) {
         printf("Student %zu score is %d and grade is '%c'\n", i, scores[i], grades[i]);
     }
 
