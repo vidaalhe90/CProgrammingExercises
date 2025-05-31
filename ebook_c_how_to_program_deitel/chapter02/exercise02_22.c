@@ -1,5 +1,5 @@
 
-/* exercise02_22.c - Odd of Even
+/* exercise02_22.c - Odd or Even
    
    Write a program that reads an integer and determines and displays whether it's odd or even.
    Use the remainder operator. */
