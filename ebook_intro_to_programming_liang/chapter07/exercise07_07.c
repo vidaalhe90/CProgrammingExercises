@@ -9,18 +9,19 @@
 #include <time.h>
 
 #define N 200
+#define DIGITS 10
 
 int main(void) {
 
-    int occurrences[10] = {0};
+    int occurrences[DIGITS] = {0};
     srand(time(NULL));
     
     for (int i = 1; i <= N; i++) {
-        occurrences[rand() % 10]++;
+        occurrences[rand() % DIGITS]++;
     }
 
-    for (int i = 0; i < 10; i++) {
-        printf("digit %d ocurrs %d times\n", i, occurrences[i]);
+    for (int i = 0; i < DIGITS; i++) {
+        printf("Digit %d ocurrs %d times\n", i, occurrences[i]);
     }
     return EXIT_SUCCESS;
 }
