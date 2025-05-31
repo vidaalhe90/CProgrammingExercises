@@ -7,6 +7,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 /* function main begins program execution */
 int main(void) {
@@ -15,7 +16,7 @@ int main(void) {
     int input;
 
     printf("%s", "Enter numbers: ");
-    for (;;) {
+    while (true) {
         scanf("%d", &input);
         if (input == 0) {
             break;

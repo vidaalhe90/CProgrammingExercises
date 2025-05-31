@@ -6,6 +6,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 #define N 50
 
@@ -16,7 +17,7 @@ int main(void) {
     int input;
     
     printf("%s", "Enter integers between 1 and 50 (0 to quit): ");
-    for (;;) {
+    while (true) {
         scanf("%d", &input);
         if (input == 0) {
             break;
